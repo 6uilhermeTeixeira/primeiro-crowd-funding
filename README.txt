@@ -1,4 +1,5 @@
 # PrimeiroCrowdFunding
+
 Desenvolvimento de Smart Contract para criação de Financiamento Coletivo desenvolvido durante treinamento do professor Pietro Martins de Oliveira (https://profpietro.com/curso-solidity-basico/).
 
 ## Tecnologias Utilizadas
@@ -35,32 +36,3 @@ git clone https://github.com/6uilhermeTeixeira/CrowdFunding.git
 - E podera utilizar a função "addressToAmountFunders" para verificar quanto cada endereço contribuiu para o financiamento coletivo
 - Na função "Funders" você podera conferir em sequencia quais os endereços doadores
 - Agora é só trocar de endereços e calcular novos valores de Wei para interagir com o contrato.
-
-# Espaço de Trabalho Padrão REMIX
-
-O espaço de trabalho padrão do Remix está presente quando:
-i. O Remix carrega pela primeira vez
-ii. Um novo espaço de trabalho é criado com o modelo 'Padrão'
-iii. Não há arquivos existentes no Explorador de Arquivos
-
-Este espaço de trabalho contém 3 diretórios:
-
-1. 'contracts': Contém três contratos com níveis crescentes de complexidade.
-2. 'scripts': Contém quatro arquivos typescript para implantar um contrato. É explicado abaixo.
-3. 'tests': Contém um arquivo de teste Solidity para o contrato 'Ballot' e um arquivo de teste JS para o contrato 'Storage'.
-
-SCRIPTS
-
-A pasta 'scripts' tem quatro arquivos typescript que ajudam a implementar o contrato 'Storage' usando as bibliotecas 'web3.js' e 'ethers.js'.
-
-Para a implantação de qualquer outro contrato, basta atualizar o nome do contrato de 'Storage' para o contrato desejado e fornecer argumentos do construtor de acordo
-com o arquivo `deploy_with_ethers.ts` ou `deploy_with_web3.ts`
-
-Na pasta 'tests' há um script contendo testes unitários Mocha-Chai para o contrato 'Storage'.
-
-Para executar um script, clique com o botão direito no nome do arquivo no explorador de arquivos e clique em 'Run'. Lembre-se, o arquivo Solidity já deve estar compilado.
-A saída do script aparecerá no terminal do remix.
-
-Observe que require/import é suportado de forma limitada para módulos suportados pelo Remix.
-Por enquanto, os módulos suportados pelo Remix são ethers, web3, swarmgw, chai, multihashes, remix e hardhat somente para o objeto/plugin hardhat.ethers.
-Para módulos não suportados, um erro como este será lançado: '<module_name> module require is not supported by Remix IDE' será exibido.
