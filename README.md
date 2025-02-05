@@ -1,4 +1,4 @@
-# PrimeiroCrowdFunding
+# Primeiro Crowd Funding
 
 Desenvolvimento de Smart Contract para criação de Financiamento Coletivo desenvolvido durante treinamento do professor Pietro Martins de Oliveira (https://profpietro.com/curso-solidity-basico/).
 
@@ -14,7 +14,7 @@ Desenvolvimento de Smart Contract para criação de Financiamento Coletivo desen
 Acessar online a IDE Remix e caminhar até a sessão "Git", aonde encontrara a aba "Clone"
 
 ```bash
-git clone https://github.com/6uilhermeTeixeira/CrowdFunding.git
+git clone https://github.com/6uilhermeTeixeira/primeiro-crowd-funding.git
 ```
 
 2. Realize a compilação e o Deploy do contrato na IDE Remix
